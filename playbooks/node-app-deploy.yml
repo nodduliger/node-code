@@ -3,7 +3,7 @@
   tasks:
     - name: copy built files to deploy-server
       synchronize:
-        src: /var/lib/jenkins/workspace/node-assignment/build/
+        src: '/var/lib/jenkins/workspace/node assignment/build/'
         dest: /home/ubuntu/my-app/
         delete: true
         recursive: true
