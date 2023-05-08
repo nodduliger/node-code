@@ -20,7 +20,7 @@ pipeline{
             steps {
             echo "deploying the application using ansible-playbook"
 	sh '''
-	ansible-playbook playbooks/node-app-deploy.yml --key-file /var/lib/jenkins/id_rsa
+	ansible-playbook playbooks/node-app-deploy.yml --key-file '/var/lib/jenkins/id_rsa'
 	'''
 
             }
