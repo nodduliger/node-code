@@ -17,7 +17,7 @@ phases:
             - echo "✅ Build passed successfully."
     post_build:
         commands:
-            - echo "🚚 Performing post-build packing and operations...
+            - echo "🚚 Performing post-build packing and operations..."
             - echo "✅ Post build successful"
 
 artifacts:
