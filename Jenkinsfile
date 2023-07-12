@@ -18,9 +18,9 @@ pipeline{
         stage("deploying") {
 
             steps {
-            echo "deploying the application using ansible-playbook"
+            echo "deploying the application"
 	sh '''
-	ansible-playbook playbooks/node-app-deploy.yml --key-file '/var/lib/jenkins/id_rsa'
+	npm start
 	'''
 
             }
